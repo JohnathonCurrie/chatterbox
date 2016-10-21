@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Chatterbox</title>
+
+
+
+    <!-- BOOTSTRAP -->
+   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   
+          <!-- Theme CSS -->
+   
+   		 	<link href="css/creative.css" rel="stylesheet">
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+
+</head>
+	<body>
+
+		<!--App Content Start -->
+
+		<div id="app_content" class="row main_row fill">
+			
+			<!--START OF SIDEBAR-->
+
+			<div id="sidebar" class="col-md-2 col-lg-2">
+
+    	        	    <!--SIDEBAR COLLAPSE-->
+
+			   	<div id="side_collapse" class="btn"><button><i class="fa fa-2x fa-arrow-circle-right text-info sr-icons"></i></button></div>
+			   	<div id="side_collapseback" class="btn"><button><i class="fa fa-2x fa-arrow-circle-left text-info"></i></button></div>
+			
+			<!--PROFILE PICTURE-->
+
+
+
+
+				<!--HEADER PHOTO-->
+
+					<img id="profile_header" alt="easynamepic" src="http://vignette3.wikia.nocookie.net/animal-jam-clans-1/images/0/0e/Tumblr-theme-background-forest-mountain-forest-tumblr-hd-image--1440x900--for-gadget-background--point-of-view.jpg/revision/latest?cb=20160508125137"/>
+        				
+        				<!--LOGOUT BUTTON-->
+        		<div id="users_list">
+        			
+        		</div>
+
+        		<button type="button" id="login" class="btn">Log in</button>
+        		<button type="button" id="logout" class="btn">Log Out</button>
+			
+			<!--SIDE FOOTER-->
+
+        		<footer id="side_footer" type="" class="col-md-2"></footer>	
+        			<footer id="side_foot_text">Copyright ® by my mind. This is a placeholder</footer>
+    	    </div>
+    	    
+    	    <!--END OF SIDEBAR-->
+    	    	
+    	    	<!--SRART OF CHAT CONENT-->
+    	        	   
+    	        	    <div id="chat_content" class="col-md-10">
+    	        	    
+
+    	        	    	<div id="repeating_content_area" class="col-md-12">
+
+    	        	    		<div class="row">
+	    	        	    		<div class="col-sm-3">
+	    	        	    			Profile Photo
+		    	        	    	</div>
+		    	        	    	<div class="col-sm-9">
+		    	        	    		chat message
+		    	        	    	</div>
+	    	        	    	</div>
+
+
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	    		<div id="sent_message" type="text" class="col-xs-12">This is a message</div>
+    	        	        </div>
+    	        	    		<!--CHAT FOOTER-->
+
+    	        	    	<div id="chat_footer" class="col-xs-12">
+    	        	    		<div class="col-xs-10">
+    	        	    			<input id="chat_message" type="text" class="form-control" placeholder="New Message" />
+    	        	    		</div>
+    	        	    		<div class="col-xs-2"> 
+ 									<button id="btn-add-message" class="btn btn-block">Sumbit</button>
+ 					            </div>
+    	        	    	</div>
+
+ 						</div>
+
+
+		
+
+
+		<!-- FIREBASE -->
+        <script src='https://www.gstatic.com/firebasejs/3.1.0/firebase.js'></script>
+		
+        <!-- JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <!-- BOOTSTRAP JS (for modal an other functions!) -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+
+        <!-- Your main JS Script -->
+        <script src="js/function.js"></script>
+
+
+
+
+
+ </body>
+</html>
